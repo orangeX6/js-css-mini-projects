@@ -1,0 +1,159 @@
+:root{
+  --grey:#242424;
+  --white:#f0f0f0;
+  --base:#1E1F26;
+  --blueGrey: #444857;
+  --blueGreyDark: #1D1E22;
+  --greyGrid:#333642
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    Sans-Serif;
+  font-weight: normal;
+  color: #272727;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+  
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.codepen{
+  display: grid;
+  /* grid-gap: 20px; */
+  grid-template-rows: auto 1fr 1fr auto;
+  height:100vh;
+}
+
+.codepen>*{
+  border: 1px solid black;
+}
+
+
+/* Editor */
+.code{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 20px; */
+  background:#333642;
+}
+
+.editor{
+  background:var(--blueGreyDark);
+  color:var(--white);
+  /* border-bottom: 10px solid #333642; */
+  display: grid;
+  grid-template-rows: auto 1fr;
+  
+}
+
+.editor__header{
+  display: grid;
+  grid-template-columns: auto 1fr auto ;
+  /* justify-items: center; */
+  align-items: center;
+  padding:5px;
+  grid-gap: 5px;
+  background:rgba(0, 0, 0, 0.2);
+}
+
+.editor__code{
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.editor__number{
+  display: block;
+  padding: 0 10px;
+}
+
+.editor__input{
+  resize: none;
+  /* background: rgba(0,0,0,0.2); */
+  background: none;
+  color:grey;
+  font-size: 15px;
+  line-height: 19px;
+  /* border:1px solid grey; */
+  border:none;
+}
+
+/* Pen Header */
+.pen{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
+  /* place-items: left center; */
+  align-items: center;
+  grid-gap: 10px;
+  background-color: var(--base);
+  box-shadow: 5px 5px 5px var(--grey);
+  color:var(--white);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.preview{
+  display: grid;
+}
+
+
+/* Buttons */
+.button{
+  background: var(--blueGrey);
+  color: var(--white);
+  border:0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  position:relative;
+}
+
+
+.button--small{
+  font-size: 12px;
+  padding: 5px;
+
+}
+
+.button--dirty:before{
+    background: #ffc600;
+    display: block;
+    content: '';
+    height: 2px;
+    width: calc(100% - 6px);
+    position:absolute;
+    left:3px;
+    top:3px;
+}
+
+.settings{
+  padding: 5px;
+  background: black;
+  border-top: 1px solid grey;
+}

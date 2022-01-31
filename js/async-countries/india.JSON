@@ -1,0 +1,243 @@
+[
+  {
+    "name": {
+      "common": "India",
+      "official": "Republic of India",
+      "nativeName": {
+        "eng": { "official": "Republic of India", "common": "India" },
+        "hin": { "official": "भारत गणराज्य", "common": "भारत" },
+        "tam": { "official": "இந்தியக் குடியரசு", "common": "இந்தியா" }
+      }
+    },
+    "tld": [".in"],
+    "cca2": "IN",
+    "ccn3": "356",
+    "cca3": "IND",
+    "cioc": "IND",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": { "INR": { "name": "Indian rupee", "symbol": "₹" } },
+    "idd": { "root": "+9", "suffixes": ["1"] },
+    "capital": ["New Delhi"],
+    "altSpellings": [
+      "IN",
+      "Bhārat",
+      "Republic of India",
+      "Bharat Ganrajya",
+      "இந்தியா"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": { "eng": "English", "hin": "Hindi", "tam": "Tamil" },
+    "translations": {
+      "ara": { "official": "جمهورية الهند", "common": "الهند" },
+      "ces": { "official": "Indická republika", "common": "Indie" },
+      "cym": { "official": "Republic of India", "common": "India" },
+      "deu": { "official": "Republik Indien", "common": "Indien" },
+      "est": { "official": "India Vabariik", "common": "India" },
+      "fin": { "official": "Intian tasavalta", "common": "Intia" },
+      "fra": { "official": "République de l'Inde", "common": "Inde" },
+      "hrv": { "official": "Republika Indija", "common": "Indija" },
+      "hun": { "official": "Indiai Köztársaság", "common": "India" },
+      "ita": { "official": "Repubblica dell'India", "common": "India" },
+      "jpn": { "official": "インド共和国", "common": "インド" },
+      "kor": { "official": "인도 공화국", "common": "인도" },
+      "nld": { "official": "Republiek India", "common": "India" },
+      "per": { "official": "جمهوری هندوستان", "common": "هند" },
+      "pol": { "official": "Republika Indii", "common": "Indie" },
+      "por": { "official": "República da Índia", "common": "Índia" },
+      "rus": { "official": "Республика Индия", "common": "Индия" },
+      "slk": { "official": "Indická republika", "common": "India" },
+      "spa": { "official": "República de la India", "common": "India" },
+      "swe": { "official": "Republiken Indien", "common": "Indien" },
+      "urd": { "official": "جمہوریہ بھارت", "common": "بھارت" },
+      "zho": { "official": "印度共和国", "common": "印度" }
+    },
+    "latlng": [20.0, 77.0],
+    "landlocked": false,
+    "borders": ["BGD", "BTN", "MMR", "CHN", "NPL", "PAK"],
+    "area": 3287590.0,
+    "demonyms": {
+      "eng": { "f": "Indian", "m": "Indian" },
+      "fra": { "f": "Indienne", "m": "Indien" }
+    },
+    "flag": "\uD83C\uDDEE\uD83C\uDDF3",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/WSk3fLwG4vtPQetp7",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/304716"
+    },
+    "population": 1380004385,
+    "gini": { "2011": 35.7 },
+    "fifa": "IND",
+    "car": { "signs": ["IND"], "side": "left" },
+    "timezones": ["UTC+05:30"],
+    "continents": ["Asia"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/in.png",
+      "svg": "https://flagcdn.com/in.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/in.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/in.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": { "latlng": [28.6, 77.2] },
+    "postalCode": { "format": "######", "regex": "^(\\d{6})$" }
+  },
+  {
+    "standard": {
+      "addresst": {},
+      "city": "Lng",
+      "prov": "IR",
+      "countryname": "Iran",
+      "postal": {},
+      "confidence": "0.2"
+    },
+    "longt": "49.11367",
+    "alt": {},
+    "elevation": {},
+    "latt": "37.35207"
+  },
+
+  {
+    "statename": {},
+    "distance": "0.026",
+    "elevation": "1",
+    "osmtags": {
+      "boundary": "administrative",
+      "name": "F/N Ward",
+      "type": "boundary",
+      "admin_level": "10"
+    },
+    "state": "Maharashtra",
+    "latt": "19.03684",
+    "city": "Mumbai",
+    "prov": "IN",
+    "intersection": {
+      "distance": "0.022",
+      "xlat": "19.0370365",
+      "xlon": "72.873206",
+      "street2": "Mkada Chawl",
+      "street1": "Mhada Building"
+    },
+    "geocode": "MUMBAI-PFSBO",
+    "geonumber": "8341386382408",
+    "country": "India",
+    "stnumber": "1",
+    "staddress": "Mkada Chawl, Wadala Truck Terminal, Sion",
+    "inlatt": "19.03700",
+    "alt": {
+      "loc": [
+        {
+          "staddress": "Mkada Chawl, Wadala Truck Terminal, Sion",
+          "stnumber": "1",
+          "postal": "400037",
+          "latt": "19.036837",
+          "city": "Mumbai",
+          "prov": "Maharashtra",
+          "longt": "72.873183",
+          "class": {}
+        },
+        {
+          "staddress": "Mhada Building, A5-14, Pratiksha Nagar Chawl, Koliwada, Sion",
+          "stnumber": "1",
+          "postal": "400022",
+          "dist": "0.036",
+          "latt": "19.037236",
+          "city": "Mumbai",
+          "prov": "Maharashtra",
+          "longt": "72.873229",
+          "class": {}
+        },
+        {
+          "staddress": "Mkada Chawl, Wadala Truck Terminal, Sion",
+          "stnumber": "1",
+          "postal": "400037",
+          "dist": "0.026",
+          "latt": "19.036837",
+          "city": "Mumbai",
+          "prov": "Maharashtra",
+          "longt": "72.873183",
+          "class": {}
+        }
+      ]
+    },
+    "timezone": "Asia/Kolkata",
+    "region": "Maharashtra",
+    "postal": "400037",
+    "longt": "72.87318",
+    "remaining_credits": {},
+    "confidence": "0.9",
+    "inlongt": "72.87300",
+    "class": {},
+    "adminareas": {
+      "admin10": {
+        "level": "10",
+        "boundary": "administrative",
+        "name": "F/N Ward",
+        "type": "boundary",
+        "admin_level": "10"
+      },
+      "admin9": {
+        "level": "9",
+        "boundary": "administrative",
+        "name": "Zone 2",
+        "type": "boundary",
+        "admin_level": "9"
+      },
+      "admin8": {
+        "population": "12478447",
+        "website": "https://portal.mcgm.gov.in/irj/portal/anonymous",
+        "name_th": "มุมไบ",
+        "name_az": "Mumbay",
+        "operator_wikidata": "Q1195653",
+        "addr_country": "IN",
+        "alt_name_en": "Bombay",
+        "name_uk": "Мумбаї",
+        "is_in_iso_3166_2": "IN-MH",
+        "boundary": "administrative",
+        "name_ko": "뭄바이",
+        "name_si": "මුම්බායි",
+        "name_en": "Mumbai",
+        "name_el": "Μουμπάι",
+        "name_yi": "מומביי",
+        "is_in_continent": "Asia",
+        "is_in_state": "Maharashtra",
+        "name": "Mumbai",
+        "operator_alt_name": "Brihanmumbai Municipal Corporation",
+        "is_in_country": "India",
+        "level": "8",
+        "name_ur": "ممبئی",
+        "name_pa": "ਮੁੰਬਈ",
+        "type": "boundary",
+        "name_hi": "मुम्बई",
+        "wikipedia": "en:Mumbai",
+        "addr_state": "Maharashtra",
+        "name_mr": "मुंबई",
+        "name_ja": "ムンバイ",
+        "name_zh": "孟买",
+        "is_in_country_code": "IN",
+        "operator": "Municipal Corporation of Greater Mumbai",
+        "name_ml": "മുംബൈ",
+        "name_ka": "მუმბაი",
+        "wikidata": "Q1156",
+        "name_yue": "孟買",
+        "name_or": "ମୁମ୍ବାଇ",
+        "name_bn": "মুম্বই",
+        "admin_level": "8",
+        "population_date": "2011",
+        "name_gu": "મુંબઈ"
+      },
+      "admin5": {
+        "wikidata": "Q2341660",
+        "level": "5",
+        "boundary": "administrative",
+        "name": "Mumbai City",
+        "type": "boundary",
+        "admin_level": "5"
+      }
+    },
+    "altgeocode": "MARAOLI-PFSBO"
+  }
+]
